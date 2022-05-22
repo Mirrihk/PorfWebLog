@@ -1,0 +1,45 @@
+﻿@page "/"
+@attribute [Authorize]
+@inject IAccountService AccountService
+
+<head>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/app.css" />
+
+</head>
+
+
+<body>
+    <div class = "index">
+        <h1> Welcome @AccountService.User.FirstName!</h1>
+    </div>
+    <h2 class="card-title">C# and .Net Developer</h2>
+    <h5>Profesional Summary</h5>
+    <p>Self-taught .Net Developer,aiming for exceptional products using strong cognitive skills. Self- directed, detail-oriented, student completing a computer science degree.  </p>
+    <h3>Skills</h3>
+    <ul>
+        <li>C#</li>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Linux</li>
+        <li>Json</li>
+        <li>Windows Terminal</li>
+    </ul>
+    <h3>Projects</h3>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <h3>Links</h3>
+    <ul>
+        <li>Linked In</li>
+        <li>Instagram</li>
+        <li>Github</li>      
+    </ul>
+
+
+
+    
+</body>
